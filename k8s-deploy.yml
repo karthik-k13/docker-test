@@ -34,7 +34,6 @@ spec:
   - port: 80
     targetPort: 9090
 ---
----
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
